@@ -1,36 +1,62 @@
+:root {
+    background: #f4fcf8;
+    color: #0D0D0D;
+    
+}
+
 body {
     margin: 15px;
     display: flex;
     flex-direction: column;
-  line-height: 1.3;
-  background-color:#8C8C8C ;
-  font-family: 'Courier New', Courier, monospace;
-  
+    line-height: 1.3;
+    font-family: 'Courier New', Courier, monospace;  
 }
-nav li {
-    float: right;
+h3 {
+    margin-left: 15px;
+}
+nav  {
+    display: block;
+   
+}
+#top-nav {
     list-style: none;
+    display: block;
+    float: right;
+    
 }
-nav a {
-    color: #404040;
-    text-align: center;
-    padding: 14px 16px;
+#top-nav a {
+    color: #0D0D0D;
     font-weight: bold;
 }
+#top-nav li {
+    display: table-cell;
+    vertical-align: middle;
+    float:left;
+    margin: 15px;
+}
+
 /* Change the link color to #D99E89 (pink) on hover */
-li a:hover {
+#top-nav a:hover {
     background-color:#BFBFBF;
-    border-radius:10px 10px;
+    border-radius:30px 30px;
     color: #D99E89;
-    margin-top: 10;
   }
   /* change link color to #0D0D0D (black) when clicked */
-  li a:active {
-      color:#0D0D0D;
+  #top-nav a:active {
+      color:white;
   }
 /* to remove lines from href */
 a {
     text-decoration: none;
+}
+/* added border styling to my profile img */
+#profile {
+    border-radius: 0px 250px 100px 250px;
+    border: thin black;
+}
+/* img turns grey when mouse hovers over */
+#profile:hover {
+    -webkit-filter: grayscale(50%); 
 }
 
 .row-1 {
@@ -54,51 +80,61 @@ h2 {
 }
 p {
     color: #0D0D0D;
-    margin: 15px;
+    margin: 15px 75px 15px 75px;
     font-weight: lighter;
     text-align: center;
     display: flex;
 }
-.row-3-col-1 img {
+.row-3-col-1 #big-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   margin-top: 15px;
   margin-bottom: 15px;
+  border: thin black inset;
 }
 .row-3-col-3 {
-    display: flex;
-   width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
-.row-3-col-3 img {
-    max-width: 33%;
-    height: auto;
-    margin: 15px;
-    border: #404040 solid ;
-    border-width: thick;
-}
-.footer {
-    background-color:lightgrey;
-    width: 95%;
-    margin: 0 auto;
-}
+.sm-img {
+    width: 30% ;
+    height: 75%;
+    border: thin black inset;
+  }
+
 .contact{
-    text-align: center;
-    color: #0D0D0D;
+    display: block;
     list-style: none;
+    float: right;
 }
+.contact li {
+    display: table-cell;
+    vertical-align: middle;
+    float:left;
+    margin: 15px;
+    font-weight: bold;
+    color: #0D0D0D;
+    
+}
+.contact a {
+    text-decoration: none;
+    color:#0D0D0D;
+}
+
 @media screen and (max-device-width: 480px) {
     body {
         display: block;
         flex-wrap: wrap;
         flex-direction: column;
-        line-height: 150%;
-    }
+    } }
 @media screen and (max-device-width: 992px) {
  body {
     display: block;
     flex-wrap: wrap;
     flex-direction: column;
-    line-height: 150%; 
- }
+ }}
+ 
