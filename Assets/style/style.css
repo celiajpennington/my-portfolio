@@ -1,10 +1,9 @@
 :root {
     background: #f4fcf8;
-    color: #0D0D0D;
-    
 }
 
 body {
+    box-sizing: border-box;
     margin: 15px;
     display: flex;
     flex-direction: column;
@@ -17,6 +16,88 @@ h3 {
 nav  {
     display: block;
    
+}
+/* to remove lines from href */
+a {
+    text-decoration: none;
+}
+.row-1 {
+    text-align: center;
+    color:#0D0D0D;
+    margin: 15px;
+    line-height: 150%;
+}
+.profile {
+    border-radius: 0 50% 50% 50%;
+}
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 350%;
+    margin: 100px;
+}
+h2 { 
+    color: #0D0D0D;
+    text-align: center;
+    font-size: 200%;
+}
+p {
+    color: #0D0D0D;
+    margin: 15px 75px 15px 75px;
+    font-weight: lighter;
+    text-align: center;
+    display: flex;
+}
+.row-1 {
+    text-align: center;
+    color:#0D0D0D;
+    margin: 15px;
+    line-height: 150%;
+}
+.profile {
+    border-radius: 0 50% 50% 50%;
+}
+.row-3-col-1 #big-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: thin black inset;
+  }
+  .row-3-col-3 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+  }
+  .sm-img {
+      width: 30% ;
+      height: 75%;
+      border: thin black inset;
+    }
+    /* creates space above footer to seperate .row-3-col-3 */
+.footer {
+    margin-top: 50px;
+}
+.contact{
+    display: block;
+    list-style: none;
+    float: right;
+}
+.contact li {
+    display: table-cell;
+    vertical-align: middle;
+    float:left;
+    margin: 15px;
+    font-weight: bold;
+    color: #0D0D0D;
+    
+}
+.contact a {
+    text-decoration: none;
+    color:#0D0D0D;
 }
 #top-nav {
     list-style: none;
@@ -38,102 +119,43 @@ nav  {
 /* Change the link color to #D99E89 (pink) on hover */
 #top-nav a:hover {
     background-color:#BFBFBF;
-    border-radius:30px 30px;
+    border-radius:150px 150px 150px 150px;
     color: #D99E89;
+    
   }
   /* change link color to #0D0D0D (black) when clicked */
   #top-nav a:active {
       color:white;
   }
-/* to remove lines from href */
-a {
-    text-decoration: none;
-}
 /* added border styling to my profile img */
 #profile {
     border-radius: 0px 250px 100px 250px;
     border: thin black;
 }
-/* img turns grey when mouse hovers over */
+/* img turns greys when mouse hovers over */
 #profile:hover {
-    -webkit-filter: grayscale(50%); 
-}
-
-.row-1 {
-    text-align: center;
-    color:#0D0D0D;
-    margin: 15px;
-    line-height: 150%;
-}
-.profile {
-    border-radius: 0 50% 50% 50%;
-}
-  h1 {
-      text-align: center;
-      font-weight: bolder;
-      font-size: 350%;
-}
-h2 { 
-        color: #0D0D0D;
-        text-align: center;
-        font-size: 200%;
-}
-p {
-    color: #0D0D0D;
-    margin: 15px 75px 15px 75px;
-    font-weight: lighter;
-    text-align: center;
-    display: flex;
-}
-.row-3-col-1 #big-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  border: thin black inset;
-}
-.row-3-col-3 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-.sm-img {
-    width: 30% ;
-    height: 75%;
-    border: thin black inset;
-  }
-
-.contact{
-    display: block;
-    list-style: none;
-    float: right;
-}
-.contact li {
-    display: table-cell;
-    vertical-align: middle;
-    float:left;
-    margin: 15px;
-    font-weight: bold;
-    color: #0D0D0D;
-    
-}
-.contact a {
-    text-decoration: none;
-    color:#0D0D0D;
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%); 
 }
 
 @media screen and (max-device-width: 480px) {
     body {
-        display: block;
+        display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-    } }
+    } 
+.sm-img-col a {
+    display: inherit;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 30px;
+    text-align: center;
+    } 
+}
+
 @media screen and (max-device-width: 992px) {
  body {
-    display: block;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
  }}

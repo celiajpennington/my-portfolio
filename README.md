@@ -2,6 +2,68 @@
 This is my first portfolio
 # 02 Advanced CSS: Portfolio
 
+My CSS- Portfolio
+
+In this project I'm creating the core structure of my portfolio using only HTML & CSS.
+
+Motivation
+To showcase my advanced CSS knowledge as well as create a portfolio I will be able to use in the future when looking for jobs.
+
+Code Style
+This was built using CSS & HTML
+
+Project Requirements 
+
+My name and a recent photo load when page is opened.
+
+***place name and recent photo img***
+
+
+BONUS
+The images greyscale goes to 50% when the mouse hovers over the img
+
+***Place photo of hover img with greyscale***
+
+
+
+
+ A Navigation bar with links to the About, Work and Contact section of my page
+
+ ***place img of Nave bar***
+
+BONUS
+When you hover over links in navigation bar the background changes to #BFBFBF and the font changes to #D99E89. When active (clicked) the font changes to white.
+
+***place img of Nav bar hover***
+
+About section is all about me
+
+***Place img of about section***
+
+Work section shows images of websites. These images act as a place holder for work since I currently have no projects to display. If you click on images, you will be directed to the site where images can be found.
+
+***place work img***
+
+Contact section has a link to my Linkedin profile, my phone number and a mailto link in the email with a sub ject line that reads "Hello Celia, you are hired".
+
+
+***Place footer img here***
+
+Site is mobile responsive. All content should move to one column the smaller the screen gets.
+
+***Place img of mobile view here**
+
+Sources
+
+          * "https://assets.awwwards.com/awards/sites_of_the_day/2015/05/awwwards-sotd-ETQ-2.jpg 
+          * https://vintage.agency/blog/content/images/2016/10/Quay.png
+           https://lh4.googleusercontent.
+           * https://lh4.googleusercontent.com/K4fpLmvkn06aavV08ghaKpAHQJm88UpSkAZRFivXlX9HTPBEsOhqSQQIu4DMnw0BM-37AHvxryskNFiSXx2HSVltazQITKETji036RIR2mrVk7b5h_jQUIi7SwUNecEYm1sK6k6h
+           * https://assets.hongkiat.com/uploads/clean-simple-minimalist-website-design/tinker.jpg" 
+
+
+See below for original task instructions
+
 ## Your Task
 
 Welcome to this week's homework! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
