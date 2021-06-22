@@ -16,6 +16,8 @@ Project Requirements
 
 My name and a recent photo load when page is opened.
 
+![alt text] https://github.com/celiajpennington/my-portfolio/blob/main/Assets/style/Name%20%26%20Recent%20Photo.png
+
 ***place name and recent photo img***
 
 
