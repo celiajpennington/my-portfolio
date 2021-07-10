@@ -2,65 +2,81 @@
 This is my first portfolio
 # 02 Advanced CSS: Portfolio
 
-My CSS- Portfolio
+#My CSS- Portfolio
 
 In this project I'm creating the core structure of my portfolio using only HTML & CSS.
 
-Motivation
+#Motivation
 To showcase my advanced CSS knowledge as well as create a portfolio I will be able to use in the future when looking for jobs.
 
-Code Style
+#Code Style
 This was built using CSS & HTML
 
-Project Requirements 
+#Project Requirements 
 
 My name and a recent photo load when page is opened.
 ![alt text] https://github.com/celiajpennington/my-portfolio/blob/main/Assets/style/Name%20%26%20Recent%20Photo.png
 
-***place name and recent photo img***
+<img width="1440" alt="Name   Recent Photo" src="https://user-images.githubusercontent.com/17009795/123014523-110ed900-d38c-11eb-93c9-d79f71b74c1c.png">
 
 
-BONUS
+*name and recent photo img*
+
+
+**BONUS**
 The images greyscale goes to 50% when the mouse hovers over the img
 
-***Place photo of hover img with greyscale***
+![Greyscale-img](https://user-images.githubusercontent.com/17009795/123014944-e2ddc900-d38c-11eb-92e5-b93a1b3e6ef9.png)
 
-
-
+*img of hover img with greyscale*
 
  A Navigation bar with links to the About, Work and Contact section of my page
+ 
+ ![Navigation-bar](https://user-images.githubusercontent.com/17009795/123014986-00129780-d38d-11eb-9a5b-297fb9da675d.png)
 
- ***place img of Nave bar***
+ *img of Nave bar*
 
-BONUS
+**BONUS**
 When you hover over links in navigation bar the background changes to #BFBFBF and the font changes to #D99E89. When active (clicked) the font changes to white.
 
-***place img of Nav bar hover***
+<img width="1440" alt="Nav-bar-hover" src="https://user-images.githubusercontent.com/17009795/123015027-13bdfe00-d38d-11eb-9787-f0d2b7cb61b9.png">
+** img of Nav bar hover**
 
 About section is all about me
 
-***Place img of about section***
+<img width="1440" alt="About-img" src="https://user-images.githubusercontent.com/17009795/123015064-29332800-d38d-11eb-97da-e0c8f8c6099e.png">
+
+**Place img of about section**
 
 Work section shows images of websites. These images act as a place holder for work since I currently have no projects to display. If you click on images, you will be directed to the site where images can be found.
 
-***place work img***
+<img width="1440" alt="Work-Section" src="https://user-images.githubusercontent.com/17009795/123015126-4cf66e00-d38d-11eb-9997-d1d90af9f6d2.png">
+
+**work section img**
 
 Contact section has a link to my Linkedin profile, my phone number and a mailto link in the email with a sub ject line that reads "Hello Celia, you are hired".
 
+<img width="1440" alt="Contacts-img" src="https://user-images.githubusercontent.com/17009795/123015089-36501700-d38d-11eb-9a8f-f14d1658c6c4.png">
 
-***Place footer img here***
+**footer img here**
 
 Site is mobile responsive. All content should move to one column the smaller the screen gets.
 
-***Place img of mobile view here**
+<img width="1440" alt="Screen Shot 2021-06-22 at 7 15 49 PM" src="https://user-images.githubusercontent.com/17009795/123015671-811e5e80-d38e-11eb-8465-6defad1b13b0.png">
 
-Sources
+**img of mobile view here**
+
+# Image Sources
 
           * "https://assets.awwwards.com/awards/sites_of_the_day/2015/05/awwwards-sotd-ETQ-2.jpg 
           * https://vintage.agency/blog/content/images/2016/10/Quay.png
            https://lh4.googleusercontent.
            * https://lh4.googleusercontent.com/K4fpLmvkn06aavV08ghaKpAHQJm88UpSkAZRFivXlX9HTPBEsOhqSQQIu4DMnw0BM-37AHvxryskNFiSXx2HSVltazQITKETji036RIR2mrVk7b5h_jQUIi7SwUNecEYm1sK6k6h
            * https://assets.hongkiat.com/uploads/clean-simple-minimalist-website-design/tinker.jpg" 
+           
+ #Text Generator
+ 
+ http://saganipsum.com/
 
 
 See below for original task instructions
