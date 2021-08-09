@@ -1,5 +1,8 @@
 # my-portfolio
 This is my first portfolio
+
+https://celiajpennington.github.io/my-portfolio/
+
 # 02 Advanced CSS: Portfolio
 
 #My CSS- Portfolio
